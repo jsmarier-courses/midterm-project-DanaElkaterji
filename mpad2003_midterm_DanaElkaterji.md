@@ -24,7 +24,8 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-Insert text here.
+In this assignment, I will analyze a dataset from the City of Ottawa concerning water and environmental issues. This data has been collected through various channels, including counters, data submissions, dispatches, emails, voice calls, walk-ins, and web submissions. It contains essential information such as the type of complaint, reasons for filing, and the opening and closing dates of each case, along with the addresses where the issues were reported. By examining this dataset, we can gain valuable insights into the community's concerns regarding water and environmental matters. Scott Berinato’s framework for data storytelling will guide this analysis, focusing on the date and type of complaints to identify potential resolutions. The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub portal. The main sections of this assignment will include data acquisition, data cleaning, and analysis.
+
 
 ## 2. Getting Data
 
