@@ -31,10 +31,29 @@ In this assignment, I will analyze a dataset from the City of Ottawa concerning 
 
 Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
+## Steps on how to import data into Google Sheets:
+   <b> 1. Download the dataset:</b> Visit the City of Ottawa's open data portal and download the dataset in CSV format onto your computer.
+
+   <b>2. Open Google Sheets: </b> Go to Google Sheet and click on "Blank Spreadsheet" to create a new spreadsheet.
+
+   <b>3. Import the dataset:</b>
+   <ul>
+   <ol> Click on  <b>File > Import.</b> </ol>
+   <ol> Then click on <b> Browse</b> and select the City of Ottawa CSV file that you downloaded earlier. </ol>
+   <ol> Choose the <b>“Comma” </b>as your separate type. 
+</ol>
+</ul>
+
+
+
 To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
 
 ![](import-screen-capture.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
+
+![](midtermPicOfTheData.png) 
+*Figure 2: The Screenshot of the data" from Dana's computer.*
+
 
 **Here are examples of functions and lines of code put in grey boxes:**
 
