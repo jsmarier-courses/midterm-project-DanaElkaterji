@@ -27,6 +27,12 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 In this assignment, I will analyze a dataset from the City of Ottawa concerning water and environmental issues. This data has been collected through various channels, including counters, data submissions, dispatches, emails, voice calls, walk-ins, and web submissions. It contains essential information such as the type of complaint, reasons for filing, and the opening and closing dates of each case, along with the addresses where the issues were reported. By examining this dataset, we can gain valuable insights into the community's concerns regarding water and environmental matters. Scott Berinato’s framework for data storytelling will guide this analysis, focusing on the date and type of complaints to identify potential resolutions. The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub portal. The main sections of this assignment will include data acquisition, data cleaning, and analysis.
 
 
+[Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)
+
+[Link to RAW data on GitHub] //fix it 
+[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1DqOkj_1srIewF3xUey7auqMXSc99X9v5726dv3Mzogo/edit?gid=533431493)
+
+
 ## 2. Getting Data
 
 Use two hashtag symbols (`##`) to create a level 2 heading like this one.
@@ -45,7 +51,6 @@ Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 </ul>
 
 
-
 To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
 
 ![](import-screen-capture.png)<br>
@@ -53,6 +58,20 @@ To include a screen capture, use the sample code below. Your images should be sa
 
 ![](midtermPicOfTheData.png) 
 *Figure 2: The Screenshot of the data" from Dana's computer.*
+
+
+
+A public link to your Google Sheets spreadsheet:
+
+[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1DqOkj_1srIewF3xUey7auqMXSc99X9v5726dv3Mzogo/edit?usp=sharing)
+
+
+<b>General Observations Regarding the Dataset</b>
+
+In this dataset, there are <b> 11 columns and 261,200 rows. </b> Upon initial inspection, I noticed several instances of <b>/N, </b>suggesting potential missing information in some cells. However, overall, the data appears to be <b>clean.</b> The columns are properly labeled, and the majority of the cells contain relevant information corresponding to their respective columns.
+
+I observed that<b> "Garbage and Recycling" </b>is the most frequently repeated service type, while <b>"Licenses and Permits"</b> has the least occurrences.
+
 
 
 **Here are examples of functions and lines of code put in grey boxes:**
