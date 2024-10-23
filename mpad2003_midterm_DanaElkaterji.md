@@ -24,7 +24,7 @@ And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-In this assignment, I will analyze a dataset from the City of Ottawa concerning Garbage and Recycling issues. This data has been collected through various channels, including counters, data submissions, dispatches, emails, voice calls, walk-ins, and web submissions. It contains essential information such as the type of complaint, reasons for filing, and the opening and closing dates of each case, along with the addresses where the issues were reported. By examining this dataset, we can gain valuable insights into the community's concerns regarding water and environmental matters. Scott Berinato’s framework for data storytelling will guide this analysis, focusing on the date and type of complaints to identify potential resolutions. The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub portal. The main sections of this assignment will include data acquisition, data cleaning, and analysis.
+In this assignment, I will analyze a dataset from the City of Ottawa concerning Garbage and Recycling issues. This data has been collected through various channels, including counters, data submissions, dispatches, emails, voice calls, walk-ins, and web submissions. It contains essential information such as the type of complaint, reasons for filing, and the opening and closing dates of each case, along with the addresses where the issues were reported. By examining this dataset, we can gain valuable insights into the community's concerns regarding water and environmental matters. Scott Berinato’s framework for data storytelling will guide this analysis, focusing on the date and type of complaints to identify potential resolutions (“Telling Stories with Data in 3 Steps (Quick Study)”). The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub portal. The main sections of this assignment will include data acquisition, data cleaning, and analysis.
 
 
 [Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)
@@ -73,11 +73,11 @@ I observed that<b> "Garbage and Recycling" </b>is the most frequently repeated s
 
 The dataset includes various types of information:
 <ul>
-<ol><b>Column C:</b> Service Type This column contains categories such as <b>Water and Environment,</b> which are <b>nominal variables. </b>These values are qualitative, representing distinct service types that cannot be ordered or ranked.
+<ol><b>Column C:</b> Service Type This column contains categories such as <b>Water and Environment,</b> which are <b>nominal variables (“Statistics: Power from Data!”). </b>These values are qualitative, representing distinct service types that cannot be ordered or ranked.
   </ol>
-<ol><b>Column B:</b> Status of the Request This column indicates whether the request is <b>open, closed, or in progress,</b> also classified as <b>nominal variables.</b> These are qualitative values representing the current state of each request without any ranking.</ol>
+<ol><b>Column B:</b> Status of the Request This column indicates whether the request is <b>open, closed, or in progress,</b> also classified as <b>nominal variables (“Statistics: Power from Data!”).</b> These are qualitative values representing the current state of each request without any ranking.</ol>
 
-<ol><b>Column E & F:</b> Opening and Closing Dates These columns show when the request was submitted and when it was closed, representing <b>interval-level</b> variables. Dates can be ordered chronologically, and they are arbunary points, which makes them interval data. <br>
+<ol><b>Column E & F:</b> Opening and Closing Dates These columns show when the request was submitted and when it was closed, representing <b>interval-level</b> variables (“Statistics: Power from Data!”). Dates can be ordered chronologically, and they are arbunary points, which makes them interval data. <br>
 </ol>
   </ul>
 
