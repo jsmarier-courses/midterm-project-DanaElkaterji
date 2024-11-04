@@ -29,13 +29,11 @@ In this assignment, I will analyze a dataset from the City of Ottawa concerning 
 
 [Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)
 
-[Link to RAW data on GitHub] //fix it 
+[Link to RAW data on GitHub]
 [Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1DqOkj_1srIewF3xUey7auqMXSc99X9v5726dv3Mzogo/edit?gid=533431493)
 
 
 ## 2. Getting Data
-
-Use two hashtag symbols (`##`) to create a level 2 heading like this one.
 
 ## Steps on how to import data into Google Sheets:
    <b> 1. Download the dataset:</b> Visit the City of Ottawa's open data portal and download the dataset in CSV format onto your computer.
@@ -109,9 +107,12 @@ This also shows how to create an ordered list. Simply put `1.` before each item.
 
 ### 3.1. VIMO Analysis
 
-Use three hashtag symbols (`###`) to create a level 3 heading like this one. Please follow this template when it comes to level 1 and level 2 headings. However, you can use level 3 headings as you see fit.
+In the City of Ottawa dataset, a valid data point exists within expected ranges and accurately represents the situation it describes (Data Accuracy and Validation). Generally, garbage and recycling requests are resolved within one week, as tasks like waste reduction and basic inquiries are usually straightforward ("Garbage and Environment," City of Ottawa). For instance, Column F, Row 7, and Column F, Row 768 show active cases with no closing dates for over three months. This duration significantly exceeds the usual one-week timeframe and appears as an <b>outlier</b> since it deviates from the norm.
 
-Insert text here.
+
+However, outliers are not necessarily <b>invalid.</b> They become invalid if they reflect data entry errors (Data Accuracy and Validation), inconsistencies, or are logically implausible. If a long-standing case is still unresolved due to legitimate circumstances, it remains valid, though unusual. In contrast, if these cases were mistakenly marked as active, they would be both <b>outliers</b> and <b>invalid.</b>
+
+According to the VIMO analysis, <b>missing</b> data applies if required information is absent for closed cases (e.g., a missing close date for a resolved status). In this dataset, however, active cases with "N" in the close date column are valid because they haven’t yet reached closure. Therefore, while Row 7 and Row 768 are outliers, they are not missing or invalid under the current conditions.
 
 Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
 
@@ -120,8 +121,32 @@ Support your claims by citing relevant sources. Please follow [APA guidelines fo
 As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
+<b>
+1. Removing Unnecessary Columns</b>
 
-Insert text here.
+The first step I took was to remove unnecessary columns. Simplifying the dataset by keeping only the relevant information makes analysis more straightforward. In this case, I focused on analyzing the relationship between date and type (Garbage and Recycling). Therefore, I deleted columns that were not essential to this analysis, such as Latitude, Longitude, Address, and Ward. To do this, I clicked on the arrow next to each unnecessary column and selected "Delete." This reduced the dataset to only the information I needed.
+
+<b>
+2. Filtering Data to Display Only Relevant Types</b>
+
+Next, I filtered the data to focus only on the types Garbage and Recycling. This step helped display only the data necessary for analysis. To do this, I selected all cells, clicked <b> Data > Create a Filter,</b> and activated the filter function. A filter icon appeared in each column header, allowing me to click on the upside-down pyramid in the Type column, where I selected only Garbage and Recycling. This refined the dataset to show only the relevant types, making it easier to analyze
+
+<b>
+3. Removing Unnecessary Whitespace </b>
+
+Removing extra whitespace ensures the data is formatted uniformly and is easier for the computer to read. To remove whitespace, I selected all cells, went to<b> Data > Data Cleanup > Trim Whitespace. </b>A popup confirmed how many cells were affected by this step, and the data appeared cleaner and more consistent as a result.
+
+
+<b> 
+4.  Removing Duplicate Service IDs  </b>
+
+Another important step was removing duplicate entries in the Service ID column, ensuring that each ID was unique. I selected the Service ID column, then went to<b> Data > Data Cleanup > Remove Duplicates.</b> After completing this step, a popup indicated the number of duplicates removed. In this case, only one duplicate ID was found and removed.
+
+<b>
+5. Using the SPLIT Function to Remove French Descriptions
+</b>
+
+To make the data easier to read, I removed the French text from the Description column by using the <b>SPLIT</b> function, leaving only the English descriptions. I inserted two new columns to the right of the Description column, clicked on cell E2, and entered the formula <b>=SPLIT(D2, "|"),</b> where D2 is the original cell containing the bilingual description and<b> "|"</b> is the delimiter that separates the English and French parts. I then dragged this formula down to apply it to the entire column. Once split, I copied the resulting English-only column, pasted it as values (using Ctrl+Shift+V), and deleted the original bilingual Description and the French columns. This made the data cleaner and more focused on English descriptions, improving readability.
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
