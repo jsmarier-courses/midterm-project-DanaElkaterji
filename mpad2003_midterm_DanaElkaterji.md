@@ -5,7 +5,6 @@
 
 # Midterm Project: Exploratory Data Analysis (EDA)
 
-Use one hashtag symbol (`#`) to create a level 1 heading like this one.
 
 ## Foreword
 
@@ -29,23 +28,24 @@ In this assignment, I will analyze a dataset from the City of Ottawa concerning 
 
 [Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)
 
-[Link to RAW data on GitHub]
-[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1DqOkj_1srIewF3xUey7auqMXSc99X9v5726dv3Mzogo/edit?gid=533431493)
+
+[Link to cleaned Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1dkenJONNBqibJUV67I6O0puUyCUSe53IiggUON_v1es/edit?usp=sharing)
 
 
 ## 2. Getting Data
 
 ## Steps on how to import data into Google Sheets:
+
    <b> 1. Download the dataset:</b> Visit the City of Ottawa's open data portal and download the dataset in CSV format onto your computer.
 
    <b>2. Open Google Sheets: </b> Go to Google Sheet and click on "Blank Spreadsheet" to create a new spreadsheet.
 
-   <b>3. Import the dataset:</b>
-   <ul>
-   <ol> + Click on  <b>File > Import.</b> </ol>
-   <ol> + Then click on <b> Browse</b> and select the City of Ottawa CSV file that you downloaded earlier. </ol>
-   <ol> + Choose the <b>“Comma” </b>as your separate type. </ol>
-</ul>
+  <b>3. Import the dataset:</b>
+<ol>
+   <li>Click on <b>File > Import.</b></li>
+   <li>Then click on <b>Browse</b> and select the City of Ottawa CSV file that you downloaded earlier.</li>
+   <li>Choose <b>“Comma”</b> as your separator type.</li>
+</ol>
 
 
 ![](import-screen-capture.png)<br>
@@ -57,7 +57,7 @@ In this assignment, I will analyze a dataset from the City of Ottawa concerning 
 
 A public link to your Google Sheets spreadsheet:
 
-[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1DqOkj_1srIewF3xUey7auqMXSc99X9v5726dv3Mzogo/edit?usp=sharing)
+[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1dkenJONNBqibJUV67I6O0puUyCUSe53IiggUON_v1es/edit?usp=sharing)
 
 
 <b>General Observations Regarding the Dataset</b><br>
@@ -159,17 +159,35 @@ The function that was used:<br>
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
-Insert text here.
+<b>Why I chose these Variables</b>
 
-**This section should include a screen capture of your pivot table, like so:**
+I chose these variables to better understand how different channels impact the status of a service request. Including the Service Request ID allowed me to count the number of requests received for each channel. Displaying the data as row percentages made it easier to compare and analyze, revealing the strengths and weaknesses of each channel.
 
-![](pivot-table-screen-capture.png)<br>
-*Figure 2: This pivot table shows...*
+<b>A statistic that stands out to me is </b>
+One statistic that stood out to me was the cancellation rate for the "Data In" channel, which is 4.04%. This is the highest cancellation rate across all channels for the Garbage and Recycling request type, suggesting potential issues with this method of service request.
+
+<b>What I learn from using exploratory data analysis 
+  </b>
+Through this analysis, I observed a strong relationship between service channels and request outcomes. Counter and walk-in channels proved to be the most effective, with the highest resolution rates. In contrast, Email and Data In channels were among the least effective, showing low resolution rates and a high cancellation rate for Data In. This suggests that in-person requests are processed more efficiently than online requests, which may face delays or other issues impacting their performance.
+
+<b>A potential story that could be told is
+</b>
+A potential story here could focus on why certain service in person channels, like Counter and Walk-in, outperform digital channels like Email and Data In. This story could discuss the benefits of in-person service and highlight potential areas for improvement in digital channels.
+
+<b>Variables and numbers that I want to warrant further investigation </b>
+
+Further investigation into service requests submitted via Email is warranted, as this channel shows the highest rate of active cases, with 23.20% still unresolved, and a low resolution rate of 73.60%. Despite the common use of email for service requests, its performance is the least efficient, with a high cancellation rate and numerous unresolved requests. This suggests challenges in managing or processing email requests effectively, making it a key area for improvement.
+
+
+**Including a screen capture of my pivot table:**
+
+![](piviottableforstatesandchannel.png)<br>
+*Figure 6: This pivot table shows relation between channel and states of requst under Garbage and Recycling type*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
-![](chart-screen-capture.png)<br>
-*Figure 3: This exploratory chart shows...*
+![](chartforrelationofchannelandstates.png)<br>
+*Figure 3: This exploratory chart shows elation between channel and states of requst under Garbage and Recycling type*
 
 ## 4. Potential Story
 

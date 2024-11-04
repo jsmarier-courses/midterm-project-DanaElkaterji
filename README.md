@@ -1,10 +1,3 @@
 ## Template for the Midterm Project: Exploratory Data Analysis (EDA)
 
-Here are the files for the midterm project of courses JOU4100 Digital Journalism II and JOU4500 Journalisme numérique II at the University of Ottawa, and MPAD2003 Introductory Data Storytelling offered at Carleton University.
-
-50 to 75 word summarizing my analysis 
-source of the data
-process
-main observation
-etc...
-I have to write that for 5 point
+This analysis focuses on identifying areas for improvement within the Garbage and Recycling service. The data was provided by the City of Ottawa's open data portal. Initially, I aimed to understand the impact of different channels for requests that have remained unresolved for as long as four months. After data cleaning and exploratory analysis, I discovered a notable trend from the service requests submitted via email that had the lowest resolved rate and a high cancellation rate, indicating potential inefficiencies. Improving the responsiveness of email channels could enhance the overall service quality, enhancing waste management efficiency and environmental sustainability.
