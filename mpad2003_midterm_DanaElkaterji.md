@@ -47,7 +47,6 @@ In this assignment, I will analyze a dataset from the City of Ottawa concerning 
    <ol> + Choose the <b>“Comma” </b>as your separate type. </ol>
 </ul>
 
-To include a screen capture, use the sample code below. Your images should be saved in the same folder as your `.md` file.
 
 ![](import-screen-capture.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
@@ -136,17 +135,27 @@ Next, I filtered the data to focus only on the types Garbage and Recycling. This
 
 Removing extra whitespace ensures the data is formatted uniformly and is easier for the computer to read. To remove whitespace, I selected all cells, went to<b> Data > Data Cleanup > Trim Whitespace. </b>A popup confirmed how many cells were affected by this step, and the data appeared cleaner and more consistent as a result.
 
+![](step1forRemovingDuplicate.png) 
+*Figure 3: Step1 of Removing Whitespace and Removing Duplicate.*
 
+![](removeWhitespaceStep3.png)  
+*Figure 4: Removing Whitespace.*
 <b> 
 4.  Removing Duplicate Service IDs  </b>
 
 Another important step was removing duplicate entries in the Service ID column, ensuring that each ID was unique. I selected the Service ID column, then went to<b> Data > Data Cleanup > Remove Duplicates.</b> After completing this step, a popup indicated the number of duplicates removed. In this case, only one duplicate ID was found and removed.
+
+![](removingduplicate.png) 
+*Figure 5: Removing Duplicate shows that one found and removed.* 
 
 <b>
 5. Using the SPLIT Function to Remove French Descriptions
 </b>
 
 To make the data easier to read, I removed the French text from the Description column by using the <b>SPLIT</b> function, leaving only the English descriptions. I inserted two new columns to the right of the Description column, clicked on cell E2, and entered the formula <b>=SPLIT(D2, "|"),</b> where D2 is the original cell containing the bilingual description and<b> "|"</b> is the delimiter that separates the English and French parts. I then dragged this formula down to apply it to the entire column. Once split, I copied the resulting English-only column, pasted it as values (using Ctrl+Shift+V), and deleted the original bilingual Description and the French columns. This made the data cleaner and more focused on English descriptions, improving readability.
+
+The function that was used:<br>
+`=SPLIT(D2 ,"|")` 
 
 ### 3.3. Exploratory Data Analysis (EDA)
 
