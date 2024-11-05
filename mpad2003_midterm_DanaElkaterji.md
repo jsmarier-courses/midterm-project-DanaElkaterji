@@ -107,10 +107,10 @@ Next, I filtered the data to focus only on the types Garbage and Recycling. This
 
 Removing extra whitespace ensures the data is formatted uniformly and is easier for the computer to read. To remove whitespace, I selected all cells, went to<b> Data > Data Cleanup > Trim Whitespace. </b>A popup confirmed how many cells were affected by this step, and the data appeared cleaner and more consistent as a result.
 
-![](step1forRemovingDuplicate.png) 
+![](step1forRemovingDuplicate.png)<br>
 *Figure 3: Step1 of Removing Whitespace and Removing Duplicate.*
 
-![](removeWhitespaceStep3.png)  
+![](removeWhitespaceStep3.png) <br> 
 *Figure 4: Removing Whitespace.*
 <b> 
 4.  Removing Duplicate Service IDs  </b>
@@ -130,7 +130,7 @@ The function that was used:<br>
 `=SPLIT(D2 ,"|")` 
 
 
-![](screancapteraftercleaning.png) 
+![](screancapteraftercleaning.png) <br>
 *Figure 6:Result of cleaning the data.* 
 
 
