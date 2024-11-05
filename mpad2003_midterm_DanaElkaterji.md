@@ -6,24 +6,10 @@
 # Midterm Project: Exploratory Data Analysis (EDA)
 
 
-## Foreword
-
-For this assignment, you must extract data from a dataset provided by the instructor. You must then clean and analyze the data, create exploratory charts/visualizations, and find a potential story idea. Your assignment must clearly detail your process. You are expected to write about 1500-2000 words, and to include several screen captures showing the different steps you went through. Your assignment must be written with the Markdown format and submitted on GitHub Classroom.
-
-I have been assigning different versions of this project to my digital journalism and data storytelling students for a few years now. Its structure was inspired by the main sections/chapters of [*The Data Journalism Handbook*](https://datajournalism.com/read/handbook/one/). This version was further inspired by the [Key Capabilities in Data Science](https://extendedlearning.ubc.ca/programs/key-capabilities-data-science) program offered by the University of British Columbia (UBC).
-
-**Here are some useful resources for this assignment:**
-
-* [GitHub's *Basic writing and formatting syntax* page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [The template repository for this assignment in case you delete something by mistake](https://github.com/jsmarier/jou4100_jou4500_mpad2003_project2_template)
-
-Did you notice how to create a hyperlink? In Markdown, we put the clickable text between square brackets and the actual URL between parentheses.
-
-And to create an unordered list, we simply put a star (`*`) before each item.
 
 ## 1. Introduction
 
-In this assignment, I will analyze a dataset from the City of Ottawa concerning Garbage and Recycling issues. This data has been collected through various channels, including counters, data submissions, dispatches, emails, voice calls, walk-ins, and web submissions. It contains essential information such as the type of complaint, reasons for filing, and the opening and closing dates of each case, along with the addresses where the issues were reported. By examining this dataset, we can gain valuable insights into the community's concerns regarding water and environmental matters. Scott Berinato’s framework for data storytelling will guide this analysis, focusing on the date and type of complaints to identify potential resolutions (“Telling Stories with Data in 3 Steps (Quick Study)”). The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub portal. The main sections of this assignment will include data acquisition, data cleaning, and analysis.
+In this assignment, I will analyze a dataset from the City of Ottawa concerning Garbage and Recycling issues. This data has been collected through various channels, including counters, data submissions, dispatches, emails, voice calls, walk-ins, and web submissions. It contains essential information such as the type of complaint, reasons for filing, and the opening and closing dates of each case, along with the addresses where the issues were reported. By examining this dataset, we can gain valuable insights into the community's concerns regarding water and environmental matters. Scott Berinato’s framework for data storytelling will guide this analysis, focusing on the date and type of complaints to identify potential resolutions (Telling Stories With Data in 3 Steps (Quick Study), 2019). The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub portal. The main sections of this assignment will include data acquisition, data cleaning, and analysis.
 
 
 [Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)
@@ -205,12 +191,21 @@ Additionally, a Global News article from 2023, which discusses delays at Service
 
 ## 5. Conclusion
 
-Insert text here.
+In this assignment, my primary goal was to understand the delays in garbage collection and recycling. I realized the importance of resolving these issues quickly, as they directly affect our environment. It was alarming to discover some requests had remained open for four months, emphasizing the urgency of addressing these concerns.
+At first, the volume of data in Google Sheets felt overwhelming. The most challenging part was cleaning the data, especially when I tried to use the SPLIT function to separate languages. I struggled with dragging the function down for 28,538 rows, which took a lot of time. I also made a mistake while copying and pasting values, accidentally deleting the original data. This led to numerous error messages, and I had to restart my cleaning process. On my second attempt, I learned to use Shift + Ctrl + V to paste values correctly, which helped me avoid previous issues.
+Despite these difficulties, I found cleaning the data the most rewarding. It was satisfying to see my progress and improvements. While working on Part 3.3, I recognized a gap in my knowledge about displaying effective pivot tables. The challenge was in applying the steps to display the data as I wanted. Looking back, I realize I could have managed my time better and focused more on understanding the data instead of dividing my attention across different tasks. Overall, this experience enhanced my data analysis skills and revealed areas for further growth.
+
 
 ## 6. References
 
-Include a list of your references here. Please follow [APA guidelines for references](https://apastyle.apa.org/style-grammar-guidelines/references). Hanging paragraphs aren't required though.
+**QuickStudy. (2019, October 30). _Telling stories with data in 3 steps (Quick Study)_ [Video]. YouTube.**  
+Retrieved November 4, 2024, from [https://www.youtube.com/watch?v=r5_34YnCmMY](https://www.youtube.com/watch?v=r5_34YnCmMY)
 
-**Here's an example:**
+**(2020, September 23). _Data Accuracy and Validation: Methods to ensure the quality of data._**  
+Retrieved November 4, 2024, from [https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)
 
-Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
+**311 Online Service Requests - Waste Collection, Bins and Litter. (n.d.). City of Toronto. Retrieved November 4, 2024**  
+Retrieved November 4, 2024, from [https://www.toronto.ca/home/311-toronto-at-your-service/find-service-information/article/?kb=kA06g000001d1s8CAA](https://www.toronto.ca/home/311-toronto-at-your-service/find-service-information/article/?kb=kA06g000001d1s8CAA)
+
+**Global News. (2023, November 1). Large lineups continue at Service Canada locations.**  
+Retrieved November 4, 2024, from [https://globalnews.ca/news/8785642/large-lineups-continue-at-service-canada-locations](https://globalnews.ca/news/8785642/large-lineups-continue-at-service-canada-locations)
