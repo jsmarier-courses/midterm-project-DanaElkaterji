@@ -74,20 +74,6 @@ In<b> Column F, Row 7,</b> the Closed Date is missing (represented as '/N') for 
 When looking at the raw data, there are many instances of '/N,' My question is: Why do most resolved cases not have a closing date? 
 
 
-
-
-
-**Here are examples of functions and lines of code put in grey boxes:**
-
-1. If you name a function, put it between "angled" quotation marks like this: `IMPORTHTML`.
-1. If you want to include the entire line of code, do the same thing, albeit with your entire code: `=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)`.
-1. Alternatively, you can put your code in an independent box using the template below:
-
-``` r
-=IMPORTHTML("https://en.wikipedia.org/wiki/China"; "table", 5)
-```
-This also shows how to create an ordered list. Simply put `1.` before each item.
-
 ## 3. Understanding Data
 
 ### 3.1. VIMO Analysis
