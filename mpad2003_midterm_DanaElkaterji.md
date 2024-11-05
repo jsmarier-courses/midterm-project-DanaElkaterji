@@ -117,7 +117,7 @@ Removing extra whitespace ensures the data is formatted uniformly and is easier 
 
 Another important step was removing duplicate entries in the Service ID column, ensuring that each ID was unique. I selected the Service ID column, then went to<b> Data > Data Cleanup > Remove Duplicates.</b> After completing this step, a popup indicated the number of duplicates removed. In this case, only one duplicate ID was found and removed.
 
-![](removingduplicate.png) 
+![](removingduplicate.png) <br>
 *Figure 5: Removing Duplicate shows that one found and removed.* 
 
 <b>
