@@ -157,6 +157,12 @@ To make the data easier to read, I removed the French text from the Description 
 The function that was used:<br>
 `=SPLIT(D2 ,"|")` 
 
+
+![](screancapteraftercleaning.png) 
+*Figure 6:Result of cleaning the data.* 
+
+
+
 ### 3.3. Exploratory Data Analysis (EDA)
 
 <b>Why I chose these Variables</b>
@@ -182,16 +188,20 @@ Further investigation into service requests submitted via Email is warranted, as
 **Including a screen capture of my pivot table:**
 
 ![](piviottableforstatesandchannel.png)<br>
-*Figure 6: This pivot table shows relation between channel and states of requst under Garbage and Recycling type*
+*Figure 7: This pivot table shows relation between channel and states of requst under Garbage and Recycling type*
 
 **This section should also include a screen capture of your exploratory chart, like so:**
 
 ![](chartforrelationofchannelandstates.png)<br>
-*Figure 3: This exploratory chart shows elation between channel and states of requst under Garbage and Recycling type*
+*Figure 8: This exploratory chart shows elation between channel and states of requst under Garbage and Recycling type*
 
 ## 4. Potential Story
 
-Insert text here.
+This story aims to uncover why digital service channels for Garbage and Recycling, such as email and data submissions, often experience longer delays compared to in-person channels like Counter and Walk-in services. Understanding the reasons behind these delays could reveal if they affect customer satisfaction or environmental outcomes, as faster service can potentially reduce issues like waste buildup.
+To gain a comprehensive understanding, I would need access to customer feedback, reviews, and data from individual service request IDs across channels. This data would allow me to evaluate response times for digital versus in-person channels and measure customer satisfaction levels for each. Insights from this analysis could help determine whether delays in digital channels are justified or if they signal inefficiencies.
+I plan to interview two groups to gather varied perspectives. First, customers who experienced delays with digital requests can share how these affected their satisfaction and perceptions of the service. Second, front-line staff handling requests can provide insights into operational challenges that might contribute to these delays.
+Additionally, a Global News article from 2023, which discusses delays at Service Canada locations, offers useful context on how service delays impact public perception and satisfaction. Another valuable resource is the City of Toronto’s 311 Online Service Requests page for Waste Collection, Bins, and Litter. This page provides detailed descriptions of waste management services and potential obstacles for digital request processing, helping to identify possible setbacks across different service channels.
+
 
 ## 5. Conclusion
 
