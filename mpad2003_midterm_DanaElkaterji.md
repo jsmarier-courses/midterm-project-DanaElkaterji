@@ -9,7 +9,7 @@
 
 ## 1. Introduction
 
-In this assignment, I will analyze a dataset from the City of Ottawa concerning Garbage and Recycling issues. This data has been collected through various channels, including counters, data submissions, dispatches, emails, voice calls, walk-ins, and web submissions. It contains essential information such as the type of complaint, reasons for filing, and the opening and closing dates of each case, along with the addresses where the issues were reported. By examining this dataset, we can gain valuable insights into the community's concerns regarding water and environmental matters. Scott Berinato’s framework for data storytelling will guide this analysis, focusing on the date and type of complaints to identify potential resolutions (Telling Stories With Data in 3 Steps (Quick Study), 2019). The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub portal. The main sections of this assignment will include data acquisition, data cleaning, and analysis.
+In this assignment, I will analyze a dataset from the City of Ottawa regarding issues related to garbage and recycling. The dataset, sourced from Open Ottawa and last updated in [[Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)], captures data collected through various channels, such as counters, dispatches, emails, voice calls, walk-ins, and web submissions. It includes essential information, including complaint types, reasons for reporting, opening and closing dates for each case, and the addresses associated with reported issues. Using Scott Berinato's framework for data storytelling, I will analyze complaint dates and types to uncover key trends and potential resolutions (“Telling Stories with Data in 3 Steps (Quick Study)”). The main sections of this assignment include data acquisition, data cleaning, and analysis, with a focus on identifying community concerns around environmental matters. The original dataset can be accessed on Open Ottawa, and the CSV version is available on my GitHub.
 
 
 [Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)
@@ -34,7 +34,7 @@ In this assignment, I will analyze a dataset from the City of Ottawa concerning 
 </ol>
 
 
-![](import-screen-capture.png)<br>
+![](comma.png)<br>
 *Figure 1: The "Import file" prompt on Google Sheets.*
 
 ![](midtermPicOfTheData.png) 
@@ -43,31 +43,37 @@ In this assignment, I will analyze a dataset from the City of Ottawa concerning 
 
 A public link to your Google Sheets spreadsheet:
 
-[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1dkenJONNBqibJUV67I6O0puUyCUSe53IiggUON_v1es/edit?usp=sharing)
+[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1ziFPS-A6Cq9BNfVT8KmRSbGmB0ZRVIJGQr3SPb9ZTYw/edit?usp=sharing)
 
 
-<b>General Observations Regarding the Dataset</b><br>
+**General Observations Regarding the Dataset**
 
-In this dataset, there are <b> 11 columns and 261,200 rows. </b> Upon initial inspection, I noticed several instances of <b>/N, </b>suggesting potential missing information in some cells. However, overall, the data appears to be <b>clean.</b> The columns are properly labeled, and the majority of the cells contain relevant information corresponding to their respective columns.
+The dataset consists of 11 columns and 261,200 rows, providing substantial data for analysis. Each column is clearly labeled, covering critical information such as service type, complaint reasons, and opening and closing dates, which helps in understanding the nature and timeline of each reported issue.
 
-I observed that<b> "Garbage and Recycling" </b>is the most frequently repeated service type, while <b>"Licenses and Permits"</b> has the least occurrences.
+Upon initial review, I identified instances of '/N' in certain cells, indicating missing data entries. This raises potential issues that could affect data completeness and analysis outcomes. However, the majority of the dataset appears well-organized, with most cells containing relevant data aligned with their column labels.
 
-<b>Specific Observations Regarding the Dataset</b><br>
+Key Observations: The “Garbage and Recycling” service type is the most commonly reported, suggesting this category may represent a primary concern for residents. In contrast, “Licenses and Permits” appears least frequently, indicating it may be less of a public issue or less commonly reported. This pattern highlights areas where public services may require more attention or resources to address recurring complaints effectively.
 
-The dataset includes various types of information:
+Since 'Garbage and Recycling' issues appear frequently, it is essential to understand the underlying causes. This provides a valuable foundation for further analysis, allowing us to investigate trends in community concerns in more detail
+
+
+**Specific Observations Regarding the Dataset**<br>
+
+**The dataset includes various types of information:**
 <ul>
-<ol><b>Column C:</b> Service Type This column contains categories such as <b>Water and Environment,</b> which are <b>nominal variables (“Statistics: Power from Data!”). </b>These values are qualitative, representing distinct service types that cannot be ordered or ranked.
+<ol><b>Column C: Service Type </b>This column categorizes services such as "Water" and "Environment." These are nominal variables, as they represent distinct service types that cannot be ordered or ranked (“Statistics: Power from Data!”).
   </ol>
-<ol><b>Column B:</b> Status of the Request This column indicates whether the request is <b>open, closed, or in progress,</b> also classified as <b>nominal variables (“Statistics: Power from Data!”).</b> These are qualitative values representing the current state of each request without any ranking.</ol>
 
-<ol><b>Column E & F:</b> Opening and Closing Dates These columns show when the request was submitted and when it was closed, representing <b>interval-level</b> variables (“Statistics: Power from Data!”). Dates can be ordered chronologically, and they are arbunary points, which makes them interval data. <br>
+<ol><b>Column B:Status of the Request</b>  This column indicates whether the request is open, closed, or in progress, also classified as nominal variables. These qualitative values describe the current state of each request without implying any ranking or hierarchy (“Statistics: Power from Data!”).</ol>
+
+<ol><b>Column E & F: Opening and Closing Dates</b> These columns display the submission and closure dates of requests, representing interval-level variables. Dates can be ordered chronologically, making them interval data as they represent arbitrary points in time that can be compared. <br>
 </ol>
   </ul>
 
 
 <b>Something missing in the dataset</b><br>
 
-In<b> Column F, Row 7,</b> the Closed Date is missing (represented as '/N') for a Garbage and Recycling request that was opened on <b>2024-07-05.</b> This is surprising because most of the garbage and recycling requests in the dataset have been resolved within a few days or weeks. <br>
+In Column F, Row 7, the Closed Date is marked as '/N' for a Garbage and Recycling request that was opened on 2024-07-05. This is surprising, as most Garbage and Recycling requests in the dataset have been resolved within a few days or weeks. The absence of this information undermines the reliability of the dataset, as it is missing crucial data that affects overall analysis. This observation aligns with the third step in becoming data literate, which emphasizes understanding data quality and completeness in analysis (Data Literacy: 3 Simple Steps).<br>
 
 <b>A question or hypothesis that comes in mind when looking at the raw data</b>
 
@@ -78,18 +84,23 @@ When looking at the raw data, there are many instances of '/N,' My question is: 
 
 ### 3.1. VIMO Analysis
 
-In the City of Ottawa dataset, a valid data point exists within expected ranges and accurately represents the situation it describes (Data Accuracy and Validation). Generally, garbage and recycling requests are resolved within one week, as tasks like waste reduction and basic inquiries are usually straightforward ("Garbage and Environment," City of Ottawa). For instance, Column F, Row 7, and Column F, Row 768 show active cases with no closing dates for over three months. This duration significantly exceeds the usual one-week timeframe and appears as an <b>outlier</b> since it deviates from the norm.
+**VIMO Analysis of the City of Ottawa Dataset**
+
+In the City of Ottawa dataset, a valid data point falls within expected ranges and accurately represents the situation it describes ("Data Accuracy and Validation"). For example, most "Garbage and Recycling" requests are resolved within one week due to the straightforward nature of these tasks and their direct environmental impact ("Garbage and Environment," City of Ottawa). For instance, Column F, Row 2, Column F, Row 4, and Column F, Row 29 are each resolved within one week, demonstrating typical handling times for these cases.<br>
+
+An invalid example would be Column F, Row 7 and Column F, Row 768, which show active cases without closing dates, remaining open for over three months. This is significantly longer than the typical one-week resolution time, marking these cases as clear outliers. However, outliers are not necessarily invalid there are key diffrences an outlier lies away from the center tendency as for as for missing vales indicate absence data(Data Magic Lab, 2023). Long-standing cases may represent complex, unresolved issues that are still valid, even though they deviate from the norm. They only become invalid if they reflect data entry errors or logical inconsistencies.<br>
+
+According to the VIMO analysis, missing data is only problematic if essential information—such as a closing date—is absent for resolved cases. In active cases marked as “/N” in the closing date column, this is valid because they remain open. Missing data would be an issue if a closed or resolved case were marked with “/N,” which would indicate missing information. Currently, there are no such missing closing dates for resolved cases, though several addresses are marked as “/N,” indicating missing location data.<br>
+
+This VIMO analysis shows that while outliers and missing data exist in the dataset, a careful examination helps clarify which entries are valid for analysis. This thorough assessment is crucial for accurately understanding patterns in the data and drawing reliable insights.<br>
 
 
-However, outliers are not necessarily <b>invalid.</b> They become invalid if they reflect data entry errors (Data Accuracy and Validation), inconsistencies, or are logically implausible. If a long-standing case is still unresolved due to legitimate circumstances, it remains valid, though unusual. In contrast, if these cases were mistakenly marked as active, they would be both <b>outliers</b> and <b>invalid.</b>
+**Refrence**
 
-According to the VIMO analysis, <b>missing</b> data applies if required information is absent for closed cases (e.g., a missing close date for a resolved status). In this dataset, however, active cases with "N" in the close date column are valid because they haven’t yet reached closure. Therefore, while Row 7 and Row 768 are outliers, they are not missing or invalid under the current conditions.
+Data Magic Lab. (2023, October 9). Outlier treatment or missing value imputation: Which comes first? Data Magic Lab. [https://datamagiclab.com/outlier-treatment-or-missing-value-imputation-which-comes-first/](https://datamagiclab.com/outlier-treatment-or-missing-value-imputation-which-comes-first/)
 
-Support your claims by citing relevant sources. Please follow [APA guidelines for in-text citations](https://apastyle.apa.org/style-grammar-guidelines/citations).
+(2020, September 23). Data Accuracy and Validation: Methods to ensure the quality of data. Retrieved November 4, 2024, from [https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008] (https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008) 
 
-**For example:**
-
-As Cairo (2016) argues, a data visualization should be truthful...
 
 ### 3.2. Cleaning Data
 <b>
@@ -169,17 +180,21 @@ Further investigation into service requests submitted via Email is warranted, as
 
 ## 4. Potential Story
 
-This story aims to uncover why digital service channels for Garbage and Recycling, such as email and data submissions, often experience longer delays compared to in-person channels like Counter and Walk-in services. Understanding the reasons behind these delays could reveal if they affect customer satisfaction or environmental outcomes, as faster service can potentially reduce issues like waste buildup.
+This story aims to uncover why digital service channels for Garbage and Recycling, such as email and data submissions, often experience longer delays compared to in-person channels like Counter and Walk-in services. Understanding the reasons behind these delays could reveal if they affect customer satisfaction or environmental outcomes, as faster service can potentially reduce issues like waste buildup.<br>
+
 To gain a comprehensive understanding, I would need access to customer feedback, reviews, and data from individual service request IDs across channels. This data would allow me to evaluate response times for digital versus in-person channels and measure customer satisfaction levels for each. Insights from this analysis could help determine whether delays in digital channels are justified or if they signal inefficiencies.
-I plan to interview two groups to gather varied perspectives. First, customers who experienced delays with digital requests can share how these affected their satisfaction and perceptions of the service. Second, front-line staff handling requests can provide insights into operational challenges that might contribute to these delays.
+I plan to interview two groups to gather varied perspectives. First, customers who experienced delays with digital requests can share how these affected their satisfaction and perceptions of the service. Second, front-line staff handling requests can provide insights into operational challenges that might contribute to these delays.<br>
+
 Additionally, a Global News article from 2023, which discusses delays at Service Canada locations, offers useful context on how service delays impact public perception and satisfaction. Another valuable resource is the City of Toronto’s 311 Online Service Requests page for Waste Collection, Bins, and Litter. This page provides detailed descriptions of waste management services and potential obstacles for digital request processing, helping to identify possible setbacks across different service channels.
 
 
 ## 5. Conclusion
 
-In this assignment, my primary goal was to understand the delays in garbage collection and recycling. I realized the importance of resolving these issues quickly, as they directly affect our environment. It was alarming to discover some requests had remained open for four months, emphasizing the urgency of addressing these concerns.
-At first, the volume of data in Google Sheets felt overwhelming. The most challenging part was cleaning the data, especially when I tried to use the SPLIT function to separate languages. I struggled with dragging the function down for 28,538 rows, which took a lot of time. I also made a mistake while copying and pasting values, accidentally deleting the original data. This led to numerous error messages, and I had to restart my cleaning process. On my second attempt, I learned to use Shift + Ctrl + V to paste values correctly, which helped me avoid previous issues.
-Despite these difficulties, I found cleaning the data the most rewarding. It was satisfying to see my progress and improvements. While working on Part 3.3, I recognized a gap in my knowledge about displaying effective pivot tables. The challenge was in applying the steps to display the data as I wanted. Looking back, I realize I could have managed my time better and focused more on understanding the data instead of dividing my attention across different tasks. Overall, this experience enhanced my data analysis skills and revealed areas for further growth.
+In this assignment, my primary goal was to understand the delays in garbage collection and recycling. I realized the importance of resolving these issues quickly, as they directly affect our environment. It was alarming to discover some requests had remained open for four months, emphasizing the urgency of addressing these concerns.<br>
+
+At first, the volume of data in Google Sheets felt overwhelming. The most challenging part was cleaning the data, especially when I tried to use the SPLIT function to separate languages. I struggled with dragging the function down for 28,538 rows, which took a lot of time. I also made a mistake while copying and pasting values when I was using the SPLIT function, accidentally deleting the original data. This led to numerous error messages, and I had to restart my cleaning process. On my second attempt, I learned to use Shift + Ctrl + V to paste values correctly, which helped me avoid previous issues.<br>
+
+Despite these difficulties, I found cleaning the data the most rewarding. It was satisfying to see my progress and improvements especialy after the SPLIT function succsesfully worked the secand time. While working on Part 3.3, I recognized a gap in my knowledge about displaying effective pivot tables. The challenge was in applying the steps to display the data as I wanted. Looking back, I realize I could have managed my time better and focused more on understanding the data instead of dividing my attention across different tasks. Overall, this experience enhanced my data analysis skills and revealed areas for further growth.<br>
 
 
 ## 6. References
@@ -189,6 +204,8 @@ Retrieved November 4, 2024, from [https://www.youtube.com/watch?v=r5_34YnCmMY](h
 
 **(2020, September 23). _Data Accuracy and Validation: Methods to ensure the quality of data._**  
 Retrieved November 4, 2024, from [https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)
+
+**Kayser, N. (n.d.). Become Data Literate in 3 Simple Steps. DataJournalism.com.** Retrieved November 4, 2024, from [https://datajournalism.com/read/handbook/one/understanding-data/become-data-literate-in-3-simple-steps](https://datajournalism.com/read/handbook/one/understanding-data/become-data-literate-in-3-simple-steps)
 
 **311 Online Service Requests - Waste Collection, Bins and Litter. (n.d.). City of Toronto. Retrieved November 4, 2024**  
 Retrieved November 4, 2024, from [https://www.toronto.ca/home/311-toronto-at-your-service/find-service-information/article/?kb=kA06g000001d1s8CAA](https://www.toronto.ca/home/311-toronto-at-your-service/find-service-information/article/?kb=kA06g000001d1s8CAA)
