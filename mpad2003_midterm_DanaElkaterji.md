@@ -211,7 +211,7 @@ Retrieved November 4, 2024, from [https://www.statcan.gc.ca/en/wtc/data-literacy
 
 **Kayser, N. (n.d.). Become Data Literate in 3 Simple Steps. DataJournalism.com.** Retrieved November 4, 2024, from [https://datajournalism.com/read/handbook/one/understanding-data/become-data-literate-in-3-simple-steps](https://datajournalism.com/read/handbook/one/understanding-data/become-data-literate-in-3-simple-steps)
 
-**CBC News. (2024, March 31). Ottawa introduces new trash limit: 3-item maximum per collection.** CBC. [https://www.cbc.ca/news/canada/ottawa/ottawa-new-trash-limit-2024-3-item-1.7334398](https://www.cbc.ca/news/canada/ottawa/ottawa-new-trash-limit-2024-3-item-1.7334398)
+**CBC News. (2024, March 31). Ottawa introduces new trash limit: 3-item maximum per collection. CBC.** Retrieved November 5, 2024, from  [https://www.cbc.ca/news/canada/ottawa/ottawa-new-trash-limit-2024-3-item-1.7334398](https://www.cbc.ca/news/canada/ottawa/ottawa-new-trash-limit-2024-3-item-1.7334398)
 
 
-**CBC News. (2023, October 19). Motion ahead of Ottawa council curbside policy vote. CBC News.**[https://www.cbc.ca/news/canada/ottawa/motion-ahead-of-ottawa-council-curbside-policy-vote-1.6873808](https://www.cbc.ca/news/canada/ottawa/motion-ahead-of-ottawa-council-curbside-policy-vote-1.6873808)
+**CBC News. (2023, October 19). Motion ahead of Ottawa council curbside policy vote. CBC News.**Retrieved November 5, 2024, from [https://www.cbc.ca/news/canada/ottawa/motion-ahead-of-ottawa-council-curbside-policy-vote-1.6873808](https://www.cbc.ca/news/canada/ottawa/motion-ahead-of-ottawa-council-curbside-policy-vote-1.6873808)
