@@ -14,6 +14,7 @@ In this assignment, I will analyze a dataset from the City of Ottawa regarding i
 
 [Original Dataset on the City of Ottawa's website](https://open.ottawa.ca/documents/65fe42e2502d442b8a774fd3d954cac5/about)
 
+[Link to Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1ziFPS-A6Cq9BNfVT8KmRSbGmB0ZRVIJGQr3SPb9ZTYw/edit?usp=sharing)
 
 [Link to cleaned Google Sheets Dataset](https://docs.google.com/spreadsheets/d/1dkenJONNBqibJUV67I6O0puUyCUSe53IiggUON_v1es/edit?usp=sharing)
 
