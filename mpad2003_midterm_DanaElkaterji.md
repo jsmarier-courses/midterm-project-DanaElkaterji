@@ -180,12 +180,16 @@ Further investigation into service requests submitted via Email is warranted, as
 
 ## 4. Potential Story
 
-This story aims to uncover why digital service channels for Garbage and Recycling, such as email and data submissions, often experience longer delays compared to in-person channels like Counter and Walk-in services. Understanding the reasons behind these delays could reveal if they affect customer satisfaction or environmental outcomes, as faster service can potentially reduce issues like waste buildup.<br>
+The City of Ottawa has published an open dataset of service requests, which offers insights into the various channels and types of service requests received. To fully capture a story about service efficiency, additional data would enhance the analysis. Firstly, it would be beneficial if the dataset included average resolution times for each channel (e.g., email, Data-in, Web) and specific issues (Organics, and Garbage- SWC). This would allow for a deeper understanding of channel performance.<br>
 
-To gain a comprehensive understanding, I would need access to customer feedback, reviews, and data from individual service request IDs across channels. This data would allow me to evaluate response times for digital versus in-person channels and measure customer satisfaction levels for each. Insights from this analysis could help determine whether delays in digital channels are justified or if they signal inefficiencies.
-I plan to interview two groups to gather varied perspectives. First, customers who experienced delays with digital requests can share how these affected their satisfaction and perceptions of the service. Second, front-line staff handling requests can provide insights into operational challenges that might contribute to these delays.<br>
+Although much address data is missing, correlating service request response times with socioeconomic status (SES) which comes from the address, would be valuable. This analysis could reveal whether neighborhoods with varying SES levels experience differences in resolution speed.<br>
 
-Additionally, a Global News article from 2023, which discusses delays at Service Canada locations, offers useful context on how service delays impact public perception and satisfaction. Another valuable resource is the City of Toronto’s 311 Online Service Requests page for Waste Collection, Bins, and Litter. This page provides detailed descriptions of waste management services and potential obstacles for digital request processing, helping to identify possible setbacks across different service channels.
+Furthermore, exploring why requests submitted via email have a significantly lower resolution rate, along with a high number of unresolved cases, warrants investigation. Interviews with individuals whose service requests have been open for months could provide insights into the delays. Additionally, speaking with representatives managing each service channel would help identify operational challenges and reasons for discrepancies in resolution times.<br>
+
+So far, the data suggests that in-person requests at counters are the most effective, exhibiting the highest resolution rates and fewest cancellations, while digital submissions—especially "Data In" and email—show lower resolution rates and higher cancellation rates. This indicates a potential need for improvements in digital service management.<br>
+
+Moreover, with the recent implementation of new garbage and recycling limits to three bags per household(CBC News, 2024), analyzing whether this regulation has increased the number of service requests by comparing data from before and after the law could further enrich this story .(CBC News, 2023)
+
 
 
 ## 5. Conclusion
@@ -207,8 +211,7 @@ Retrieved November 4, 2024, from [https://www.statcan.gc.ca/en/wtc/data-literacy
 
 **Kayser, N. (n.d.). Become Data Literate in 3 Simple Steps. DataJournalism.com.** Retrieved November 4, 2024, from [https://datajournalism.com/read/handbook/one/understanding-data/become-data-literate-in-3-simple-steps](https://datajournalism.com/read/handbook/one/understanding-data/become-data-literate-in-3-simple-steps)
 
-**311 Online Service Requests - Waste Collection, Bins and Litter. (n.d.). City of Toronto. Retrieved November 4, 2024**  
-Retrieved November 4, 2024, from [https://www.toronto.ca/home/311-toronto-at-your-service/find-service-information/article/?kb=kA06g000001d1s8CAA](https://www.toronto.ca/home/311-toronto-at-your-service/find-service-information/article/?kb=kA06g000001d1s8CAA)
+**CBC News. (2024, March 31). Ottawa introduces new trash limit: 3-item maximum per collection.** CBC. [https://www.cbc.ca/news/canada/ottawa/ottawa-new-trash-limit-2024-3-item-1.7334398](https://www.cbc.ca/news/canada/ottawa/ottawa-new-trash-limit-2024-3-item-1.7334398)
 
-**Global News. (2023, November 1). Large lineups continue at Service Canada locations.**  
-Retrieved November 4, 2024, from [https://globalnews.ca/news/8785642/large-lineups-continue-at-service-canada-locations](https://globalnews.ca/news/8785642/large-lineups-continue-at-service-canada-locations)
+
+**CBC News. (2023, October 19). Motion ahead of Ottawa council curbside policy vote. CBC News.**[https://www.cbc.ca/news/canada/ottawa/motion-ahead-of-ottawa-council-curbside-policy-vote-1.6873808](https://www.cbc.ca/news/canada/ottawa/motion-ahead-of-ottawa-council-curbside-policy-vote-1.6873808)
